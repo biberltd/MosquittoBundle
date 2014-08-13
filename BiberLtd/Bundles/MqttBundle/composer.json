@@ -1,0 +1,24 @@
+{
+    "name": "biberltd/google-bundle",
+    "type": "symfony-bundle",
+    "description": "Provides API connection to google.",
+    "keywords": ["google", "google api", "google analytics"],
+    "homepage": "http://github.com/biberltd/ExifBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Can Berkol",
+            "email": "can.berkol@biberltd.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+         "biberltd/exception-bundle": "master"
+    },
+    "autoload": {
+        "psr-0": { "BiberLtd\\Bundles\\ExifBundle": "ExifBundle/" }
+
+    },
+    "minimum-stability": "dev",
+    "target-dir": "BiberLtd/Bundles/ExifBundle/"
+}

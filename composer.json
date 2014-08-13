@@ -1,0 +1,29 @@
+{
+    "name": "biberltd/stockmanagementbundle",
+    "type": "symfony-bundle",
+    "description": "",
+    "keywords": [],
+    "homepage": "http://github.com/biberltd/MqttBundle",
+    "license": "MIT",
+	"version": "master",
+    "authors": [
+        {
+            "name": "Can Berkol",
+            "email": "can.berkol@biberltd.com"
+        },
+		{
+            "name": "Said İmamoğlu",
+            "email": "said.imamoglu@biberltd.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+	"ext-mosquitto": "*"
+    },
+    "autoload": {
+        "psr-0": { "BiberLtd\\MqttBundle": "" }
+
+    },
+    "minimum-stability": "dev",
+    "target-dir": "BiberLtd/MqttBundle"
+}

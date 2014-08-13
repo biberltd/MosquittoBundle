@@ -1,0 +1,3 @@
+biberltd_pdf:
+    pattern:  /exif
+    defaults: { _controller: BiberLtdBundlesExifBundle:Default:test }
