@@ -24,6 +24,12 @@
         "psr-0": { "BiberLtd\\MqttBundle": "" }
 
     },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/biberltd/MqttBundle"
+    }
+]
     "minimum-stability": "dev",
     "target-dir": "BiberLtd/MqttBundle"
 }
