@@ -1,9 +1,9 @@
 {
-  "name": "biberltd/mqtt-bundle",
+  "name": "biberltd/mosquitto-bundle",
   "type": "symfony-bundle",
   "description": "",
   "keywords": [],
-  "homepage": "http://github.com/biberltd/MqttBundle",
+  "homepage": "http://github.com/biberltd/MosquittoBundle",
   "license": "MIT",
   "version": "master",
   "authors": [
@@ -22,15 +22,15 @@
   },
   "autoload": {
     "psr-0": {
-      "BiberLtd\\MqttBundle": ""
+      "BiberLtd\\MosquittoBundle": ""
     }
   },
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/biberltd/MqttBundle"
+      "url": "https://github.com/biberltd/MosquittoBundle"
     }
   ],
   "minimum-stability": "dev",
-  "target-dir": "BiberLtd/MqttBundle"
+  "target-dir": "BiberLtd/MosquittoBundle"
 }
