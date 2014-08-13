@@ -1,0 +1,3 @@
+biberltd_pdf:
+    pattern:  /mosquitto
+    defaults: { _controller: BiberLtdBundlesMosquittoBundle:Default:test }

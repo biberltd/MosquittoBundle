@@ -1,4 +1,0 @@
-services:
-    biberltd.exif:
-        class:        BiberLtd\Bundles\ExifBundle\Services\Exif
-        arguments: []

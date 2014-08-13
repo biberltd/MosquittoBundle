@@ -1,6 +1,6 @@
 <?php
 
-namespace BiberLtd\Bundles\ExifBundle\DependencyInjection;
+namespace BiberLtd\Bundles\MosquittoBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class BiberLtdBundlesExifExtension extends Extension
+class BiberLtdBundlesMosquittoExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -35,6 +35,6 @@ class BiberLtdBundlesExifExtension extends Extension
      * @return	        string
      */
     public function getAlias(){
-        return 'biber_ltd_bundles_exif';
+        return 'biber_ltd_bundles_mosquitto';
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace BiberLtd\Bundles\ExifBundle;
-use BiberLtd\Bundles\ExifBundle\DependencyInjection\AutoLoad;
+namespace BiberLtd\Bundles\MosquittoBundle;
+use BiberLtd\Bundles\MosquittoBundle\DependencyInjection\AutoLoad;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-class BiberLtdBundlesExifBundle extends Bundle
+class BiberLtdBundlesMosquittoBundle extends Bundle
 
 {
     /**

@@ -1,0 +1,4 @@
+services:
+    biberltd.mosquitto:
+        class:        BiberLtd\Bundles\MosquittoBundle\Services\Mosquitto
+        arguments: []

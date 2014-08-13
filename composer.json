@@ -18,7 +18,8 @@
   ],
   "require": {
     "php": ">=5.4",
-    "ext-mosquitto": "*"
+    "ext-mosquitto": "*",
+    "biberltd/core-bundle":"dev-master"
   },
   "autoload": {
     "psr-0": {
